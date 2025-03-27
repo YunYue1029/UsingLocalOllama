@@ -1,4 +1,4 @@
-# UingLocalOllama 專案
+# UsingLocalOllama 專案
 
 這是一個使用 Django 框架開發的專案，整合了本地 Ollama API 功能。
 
