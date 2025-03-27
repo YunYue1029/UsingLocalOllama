@@ -19,8 +19,7 @@
 
 1. 克隆專案並進入專案目錄：
 ```bash
-git clone [your-repository-url]
-cd [project-directory]
+git clone https://github.com/YunYue1029/UsingLocalOllama/tree/main
 ```
 
 2. 創建並啟動虛擬環境：
