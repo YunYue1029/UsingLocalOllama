@@ -7,6 +7,7 @@
 - 整合本地 Ollama API
 - 支援跨域請求 (CORS)
 - RESTful API 設計
+- 提供當前時間 API
 
 ## 環境要求
 
@@ -54,7 +55,20 @@ python manage.py runserver
 
 ## API 使用說明
 
-### Ollama API 端點
+### 1. 當前時間 API
+
+- URL: `http://localhost:8000/ollama/time/`
+- 方法: GET
+- 回應格式：
+```json
+{
+    "status": "success",
+    "time": "2024-03-27 15:30:45 TST",
+    "timezone": "Asia/Taipei"
+}
+```
+
+### 2. Ollama API 端點
 
 - URL: `http://localhost:8000/ollama/chat/`
 - 方法: POST
