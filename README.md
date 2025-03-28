@@ -1,4 +1,4 @@
-# UingLocalOllama 專案
+# UsingLocalOllama 專案
 
 這是一個使用 Django 框架開發的專案，整合了本地 Ollama API 功能。
 
@@ -20,8 +20,7 @@
 
 1. 克隆專案並進入專案目錄：
 ```bash
-git clone [your-repository-url]
-cd [project-directory]
+git clone https://github.com/YunYue1029/UsingLocalOllama/tree/main
 ```
 
 2. 創建並啟動虛擬環境：
